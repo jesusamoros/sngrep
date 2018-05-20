@@ -1,5 +1,5 @@
 #!/bin/sh
-
+eho "arrancando bootstrap.sh"
 check_for_app() {
         $1 --version 2>&1 >/dev/null
         if [ $? != 0 ]
